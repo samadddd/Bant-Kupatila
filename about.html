@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/485438f9b9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="icon"
+      href="images/fav-icons/home-fav-icon.jpg"
+      type="image/x-icon"
+    />
+
+    <title>Bant Kupatila | About Us</title>
+    <style>
+      * {
+        font-family: "Neue Haas Unica";
+      }
+
+      /* ------------HIDING SCROLLBAR--------- */
+
+      ::-webkit-scrollbar {
+        width: 0;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: transparent;
+      }
+
+      /* --------------ACTIVATED PAGE---------- */
+
+      .activatedPage {
+        color: #ed1b23;
+        font-weight: 700;
+      }
+
+      /* -----------MAIN HEADING SHADOW------------ */
+
+      .h1-shadow {
+        text-shadow: 0 4px 4px #00000040;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+    <nav class="px-[5%] py-4">
+
+      <div class="lg:grid xs:flex grid-cols-5 items-center justify-between">
+        <img src="images/logos/header-logo.png" alt="Logo" />
+
+        <ul class="lg:flex xs:hidden gap-16 col-span-2 text-[#383751]">
+          <li><a href="#">Home</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li class="activatedPage"><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div
+          class="lg:flex xs:hidden justify-end gap-4 items-center col-span-2">
+          <input type="text" placeholder="Search Store" class="text-sm text-[#6C6B80] border border-[#d1d1db] rounded-lg w-2/4 py-1 px-2"/>
+          <div class="flex justify-center items-center gap-1">
+            <img src="images/icons/header-country-flag.png" alt="Country Flag" class=""/>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+        </div>
+
+        <img src="images/icons/menu-button.svg" alt="Menu" class="xs:block lg:hidden"/>
+      </div>
+      
+    </nav>
+
+    <div class="bg-[url('images/backgrounds/about-header-background.png')] bg-cover bg-center py-48">
+
+        <div class="flex place-content-center">
+            <h1 class="text-5xl font-extrabold h1-shadow text-[#F9F9FB]">About Us</h1>
+        </div>
+
+    </div>
+    </header>
+
+    <section>
+
+        <div class="py-[7.62rem] px-[11%]">
+        <div class="flex gap-16">
+            <div class="flex flex-col gap-6 max-w-lg">
+                <h1 class="text-5xl font-extrabold text-[#121127]">Who are we?</h1>
+                <p class="text-lg text-[#6C6B80]">At BANT Designs, we believe that every washroom should be a work of art, reflecting the unique style and personality of the space and its occupants. That's why we approach every project with creativity, attention to detail, and a passion for innovative design. <br>
+                Our design philosophy is built on a foundation of quality, sustainability, and functionality. We use only the highest-quality materials and finishes, and we are committed to eco-friendly practices and products.</p>
+                <button class="font-bold text-white bg-[#ED1B23] w-44 h-14"><a href="#">Buy Now</a></button>
+            </div>
+            <div class="relative flex w-full">
+                <div class="absolute bottom-0 left-0 z-10">
+                    <img src="images/extra-images/about-section-1-image-1.png" alt="Image-1">
+                </div>
+                <div class="absolute top-0 right-0">
+                    <img src="images/extra-images/about-section-1-image-2.png" alt="Image-2">
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="bg-[url('images/backgrounds/about-stats.png')] bg-cover bg-center bg-no-repeat p-28">
+            <div class="grid grid-cols-4">
+                <div class="flex flex-col gap-2.5 items-center border border-[#E5E5EB] py-10">
+                    <h1 class="text-5xl font-medium text-white leading-[3.5rem] border-b border-[#ed1b22c0] pb-2.5">20</h1>
+                    <p class="text-lg text-[#F3F3F6]">Years Experience</p>
+                </div>
+                    <div class="flex flex-col gap-2.5 items-center border border-[#E5E5EB] py-10">
+                    <h1 class="text-5xl font-medium text-white leading-[3.5rem] border-b border-[#ed1b22c0] pb-2.5">1456+</h1>
+                    <p class="text-lg text-[#F3F3F6]">Happy Customers</p>
+                </div>
+                    <div class="flex flex-col gap-2.5 items-center border border-[#E5E5EB] py-10">
+                    <h1 class="text-5xl font-medium text-white leading-[3.5rem] border-b border-[#ed1b22c0] pb-2.5">45</h1>
+                    <p class="text-lg text-[#F3F3F6]">Expert Team Members</p>
+                </div>
+                    <div class="flex flex-col gap-2.5 items-center border border-[#E5E5EB] py-10">
+                    <h1 class="text-5xl font-medium text-white leading-[3.5rem] border-b border-[#ed1b22c0] pb-2.5">10</h1>
+                    <p class="text-lg text-[#F3F3F6]">Branches</p>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <section class="py-28 px-[11%]">
+
+        <h1 class="text-5xl font-extrabold text-[#121127] text-center mb-14">Our Mission</h1>
+        <div class="flex flex-col gap-14">
+            <div class="flex gap-16">
+                <p class="text-lg text-[#6C6B80] max-w-lg">Our commitment to exceptional customer service is second to none. We stand behind our work and offer a satisfaction guarantee to all our clients. Our team is always available to answer any questions you may have, and we are dedicated to making your experience with us as smooth and stress-free as possible. <br>
+                We are proud to have built partnerships with leading manufacturers of fixtures and materials, allowing us to offer the latest and most innovative products to our clients. Our team is fully licensed and insured, and we adhere to the highest standards of safety and quality in all our work.
+                </p>
+                <div class="">
+                    <img src="images/extra-images/about-section-2-image-1.png" alt="Our Mission">
+                </div>
+            </div>
+            <div class="flex gap-16">
+                <div class="">
+                    <img src="images/extra-images/about-section-2-image-1.png" alt="Our Mission">
+                </div>
+                <p class="text-lg text-[#6C6B80] max-w-lg">We understand that every client is unique, which is why we work closely with you from the initial consultation to the final installation. Our approach is collaborative, and we take the time to listen to your needs and ideas to create a design that exceeds your expectations. <br>
+                Our commitment to exceptional customer service is second to none. We stand behind our work and offer a satisfaction guarantee to all our clients. Our team is always available to answer any questions you may have, and we are dedicated to making your experience with us as smooth and stress-free as possible.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="bg-[#F9F9FB] py-28 px-16">
+
+        <h1 class="text-4xl font-bold text-[#121127] text-center">Brands We Offer</h1>
+        <div class="grid grid-cols-7 mt-14 gap-x-11 gap-y-8">
+            <div>
+                <img src="images/brands/brand-col1-row1.png" alt="">
+            </div>
+            <div>
+                <img src="images/brands/brand-col1-row1.png" alt="">
+            </div>
+            <div>
+                <img src="images/brands/brand-col1-row1.png" alt="">
+            </div>
+            <div>
+                <img src="images/brands/brand-col1-row1.png" alt="">
+            </div>
+            <div>
+                <img src="images/brands/brand-col1-row1.png" alt="">
+            </div>
+            <div>
+                <img src="images/brands/brand-col1-row1.png" alt="">
+            </div>
+            <div>
+                <img src="images/brands/brand-col1-row1.png" alt="">
+            </div>
+            <div>
+                <img src="images/brands/brand-col1-row1.png" alt="">
+            </div>
+            <div>
+                <img src="images/brands/brand-col1-row1.png" alt="">
+            </div>
+            <div>
+                <img src="images/brands/brand-col1-row1.png" alt="">
+            </div>
+            <div>
+                <img src="images/brands/brand-col1-row1.png" alt="">
+            </div>
+            <div>
+                <img src="images/brands/brand-col1-row1.png" alt="">
+            </div>
+            <div>
+                <img src="images/brands/brand-col1-row1.png" alt="">
+            </div>
+            <div>
+                <img src="images/brands/brand-col1-row1.png" alt="">
+            </div>
+            <div>
+                <img src="images/brands/brand-col1-row1.png" alt="">
+            </div>
+            <div>
+                <img src="images/brands/brand-col1-row1.png" alt="">
+            </div>
+            <div>
+                <img src="images/brands/brand-col1-row1.png" alt="">
+            </div>
+            <div>
+                <img src="images/brands/brand-col1-row1.png" alt="">
+            </div>
+            <div>
+                <img src="images/brands/brand-col1-row1.png" alt="">
+            </div>
+            <div>
+                <img src="images/brands/brand-col1-row1.png" alt="">
+            </div>
+            <div>
+                <img src="images/brands/brand-col1-row1.png" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="py-32 px-16">
+
+        <h1 class="text-4xl font-bold text-[#121127] text-center">Our Team</h1>
+        <div class="grid grid-cols-8 grid-rows-2 gap-x-6 gap-y-9 mt-12">
+            <div class="border border-[#D1D1DB] px-2.5 pt-2.5 pb-4 col-span-2">
+                <img src="images/people/person-1.png" alt="Person 1">
+                <h5 class="text-xl font-medium text-[#383751] text-center mt-2.5">Sarah Jones</h5>
+                <p class="text-[#9D9CAF] text-center">Founder</p>
+            </div>
+            <div class="border border-[#D1D1DB] px-2.5 pt-2.5 pb-4 col-span-2">
+                <img src="images/people/person-2.png" alt="Person 1">
+                <h5 class="text-xl font-medium text-[#383751] text-center mt-2.5">John Smith</h5>
+                <p class="text-[#9D9CAF] text-center">Marketing Manager</p>
+            </div>
+            <div class="border border-[#D1D1DB] px-2.5 pt-2.5 pb-4 col-span-2">
+                <img src="images/people/person-3.png" alt="Person 1">
+                <h5 class="text-xl font-medium text-[#383751] text-center mt-2.5">Sarah Jones</h5>
+                <p class="text-[#9D9CAF] text-center">Sales Representative</p>
+            </div>
+            <div class="border border-[#D1D1DB] px-2.5 pt-2.5 pb-4 col-span-2">
+                <img src="images/people/person-4.png" alt="Person 1">
+                <h5 class="text-xl font-medium text-[#383751] text-center mt-2.5">David Lee</h5>
+                <p class="text-[#9D9CAF] text-center">Sales Representative</p>
+            </div>
+            <div class="border border-[#D1D1DB] px-2.5 pt-2.5 pb-4 col-start-2 col-end-4">
+                <img src="images/people/person-5.png" alt="Person 1">
+                <h5 class="text-xl font-medium text-[#383751] text-center mt-2.5">Samantha Kim</h5>
+                <p class="text-[#9D9CAF] text-center">IT Support Specialis</p>
+            </div>
+            <div class="border border-[#D1D1DB] px-2.5 pt-2.5 pb-4 col-start-4 col-end-6">
+                <img src="images/people/person-6.png" alt="Person 1">
+                <h5 class="text-xl font-medium text-[#383751] text-center mt-2.5">Michael Johnson</h5>
+                <p class="text-[#9D9CAF] text-center">Accounting Manager</p>
+            </div>
+            <div class="border border-[#D1D1DB] px-2.5 pt-2.5 pb-4 col-start-6 col-end-8">
+                <img src="images/people/person-7.png" alt="Person 1">
+                <h5 class="text-xl font-medium text-[#383751] text-center mt-2.5">Mick john</h5>
+                <p class="text-[#9D9CAF] text-center">Designer</p>
+            </div>
+
+        </div>
+    </section>
+
+<section>
+    <div class="bg-[url('images/backgrounds/footer-background.png')] bg-cover px-9 py-20">
+        <div class="max-w-2xl m-auto">
+            <h1 class="md:text-5xl text-3xl font-extrabold text-[#F9F9FB] md:leading-[3.5rem] text-center header-h1">Welcome to the world of Style and Luxury</h1>
+            <p class="sm:text-xl text-lg text-[#F9F9FB] text-center py-6">Bant d.o.o. company was founded in 1994. and is leading company for decoration of your living space.</p>
+            <div class="flex justify-center">
+                <button class="bg-white font-bold text-[#ED1B23] py-3.5 px-14 "><a href="">Buy Now</a></button>
+            </div>
+        </div>     
+    </div>
+</section>
+
+    <footer class="bg-[#0D0D0D] text-white px-[4%]">
+
+    <div class="flex gap-y-20 pt-28 pb-16 xl:flex-row flex-col">
+        <div class="max-w-xs xl:self-start self-center">
+            <img src="images/logos/footer-logo.png" alt="" class="xl:m-0 m-auto">
+            <p class="text-white mt-3 xl:text-start text-center">Making the world a better place through constructing elegant hierarchies</p>
+            <div class="flex gap-[1.25rem] mt-9 xl:justify-start justify-center">
+                <i class="fa-brands fa-facebook text-2xl" style="color: #ed1b23;"></i>
+                <i class="fa-brands fa-twitter text-2xl" style="color: #ed1b23;"></i>
+                <i class="fa-brands fa-instagram text-2xl" style="color: #ed1b23;"></i>
+            </div>
+        </div>
+      <div class="flex justify-around w-full flex-col lg:flex-row gap-y-20">
+        <div class="flex justify-around w-full">
+        <div>
+            <h6 class="text-sm font-medium tracking-widest">NAVIGATION</h6>
+            <ul class="flex flex-col gap-1 mt-6">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h6 class="text-sm font-medium tracking-widest">LEGAL</h6>
+            <ul class="flex flex-col gap-1 mt-6">
+                <li><a href="#">Legal declarations</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Cookies policy</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="flex justify-around w-full">
+        <div>
+            <h6 class="text-sm font-medium tracking-widest">ADDRESS</h6>
+            <ul class="flex flex-col gap-3 mt-6">
+                <li class="flex gap-3"><img src="images/icons/location.svg" alt="Location"><a href="#">PC 96, Vitez</a></li>
+                <li class="flex gap-3"><img src="images/icons/call.svg" alt="Call"><a href="#">030-714-770</a></li>
+                <li class="flex gap-3"><img src="images/icons/call.svg" alt="Call-2"><a href="#">030-717-505</a></li>
+                <li class="flex gap-3"><img src="images/icons/email.svg" alt="Email"><a href="#">info@bant.ba</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h6 class="text-sm font-medium tracking-widest">ADDRESS</h6>
+            <ul class="flex flex-col gap-3 mt-6">
+                <li class="flex gap-3"><img src="images/icons/location.svg" alt="Location"><a href="#">PC 96, Vitez</a></li>
+                <li class="flex gap-3"><img src="images/icons/call.svg" alt="Call-2"><a href="#">030-717-505</a></li>
+                <li class="flex gap-3"><img src="images/icons/call.svg" alt="Call"><a href="#">030-714-770</a></li>
+                <li class="flex gap-3"><img src="images/icons/email.svg" alt="Email"><a href="#">info@bant.ba</a></li>
+            </ul>
+        </div>
+    </div>
+     </div>
+    </div>
+
+    <hr>
+    <div class="py-8">
+        <p class="text-base text-center">Copyright © 20203. Bant keramika - All rights reserved</p>
+    </div>
+
+
+</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
